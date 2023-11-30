@@ -1,0 +1,10 @@
+1.install ganache server and start the ganache server
+2.go to the main folder and execute "npm install"
+3 install python
+4. pip install web3, pip install py-solc-x
+5.Install the meta mask extension in the chrome browser and login
+6. use ganache server rpc address and create the localnetwork in metamask
+7. use ganache 1st private key to import account in the metamask which gives 100eth
+8. execute python deploy.py which gives the contract address and abi and paste it in the utils/config.js file
+9. after execute npm run dev 
+10.open localhost:3000 in browser and connect created metamask account with local network
